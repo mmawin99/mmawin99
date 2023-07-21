@@ -49,7 +49,7 @@ src="https://img.shields.io/twitter/follow/mmawin99?logo=twitter&style=for-the-b
 
 <a href="http://www.github.com/mmawin99"><img src="https://github-readme-streak-stats.herokuapp.com/?user=mmawin99&stroke=a855f7&background=181824&ring=ffffff&fire=ffffff&currStreakNum=a855f7&currStreakLabel=ffffff&sideNums=a855f7&sideLabels=a855f7&dates=a855f7&hide_border=true" /></a>
 
-<a href="http://www.github.com/mmawin99"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=mmawin99&bg_color=181824&color=a855f7&line=facc15&point=a855f7&area_color=181824&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+<a href="http://www.github.com/mmawin99"><img src="https://github-readme-activity-graph.vercel.app/graph?username=mmawin99&bg_color=181824&color=a855f7&line=facc15&point=a855f7&area_color=181824&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 
 <a href="https://github.com/mmawin99" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mmawin99&langs_count=10&title_color=ffffff&text_color=a855f7&icon_color=facc15&bg_color=181824&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
