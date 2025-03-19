@@ -12,9 +12,7 @@ I've been learning Next.js for 2 years and I started using Next.js for my future
 
 <br clear="both">
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/mmawin99/count.svg?"  />
-</div>
+![](https://komarev.com/ghpvc/?username=mmawin99&style=for-the-badge)
 
 ###
 
