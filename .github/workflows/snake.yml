@@ -1,14 +1,12 @@
 name: Generate snake animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "0 0 * * *"
-
+  schedule:
+    - cron: "0 */12 * * *" # every 12 hours
   workflow_dispatch:
-
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -18,14 +16,37 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate snake.svg
+      - name: Generate snake (github-light)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-light
+          outputs: dist/snake-light.svg?palette=github-light
 
+      - name: Generate snake (github-dark)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake-dark.svg?palette=github-dark
 
-      - name: push snake.svg to the output branch
+      - name: Generate snake (gruvbox)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake-gruvbox.svg?palette=gruvbox
+
+      - name: Generate snake (dracula)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake-dracula.svg?palette=dracula
+
+      - name: Generate snake (aurora)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake-aurora.svg?palette=aurora
+
+      - name: Push all snake.svg variants
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
