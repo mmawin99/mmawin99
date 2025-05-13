@@ -88,12 +88,12 @@ I've been learning Next.js for 2 years and I started using Next.js for my future
   <picture>
     <source 
       media="(prefers-color-scheme: dark)" 
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=mmawin99&bg_color=000000&color=ffffff&line=ffffff&point=0008ff&area=true&hide_border=true" />
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=mmawin99&bg_color=282a36&color=f8f8f2&line=8be9fd&point=bd93f9&area=true&hide_border=true" />
     <source 
       media="(prefers-color-scheme: light)" 
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=mmawin99&bg_color=ffffff&color=000000&line=000000&point=ff00bb&area=true&hide_border=true" />
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=mmawin99&bg_color=f8f8f2&color=282a36&line=6272a4&point=ff79c6&area=true&hide_border=true" />
     <img 
-      src="https://github-readme-activity-graph.vercel.app/graph?username=mmawin99&bg_color=ffffff&color=000000&line=000000&point=ff00bb&area=true&hide_border=true" 
+      src="https://github-readme-activity-graph.vercel.app/graph?username=mmawin99&bg_color=f8f8f2&color=282a36&line=6272a4&point=ff79c6&area=true&hide_border=true" 
       alt="GitHub Contribution Stats" height="300" />
   </picture> 
 </div>
