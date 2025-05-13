@@ -7,7 +7,7 @@ I've been learning Next.js for 2 years and I started using Next.js for my future
 <br clear="both">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mmawin99/mmawin99/output/snake-dracula.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mmawin99/mmawin99/output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mmawin99/mmawin99/output/snake-light.svg" />
   <img src="https://raw.githubusercontent.com/mmawin99/mmawin99/output/snake-light.svg" alt="Snake animation" />
 </picture>
