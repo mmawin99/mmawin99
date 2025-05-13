@@ -22,7 +22,8 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake-light.svg?palette=github-light
-            dist/snake-dracula.svg?palette-dracula
+            dist/snake-dracula.svg?palette=dracula
+            dist/snake-dark.svg?palette=github-dark
             dist/snake-dracula2.svg?color_snake=#bd93f9&color_dots=#8be9fd,#50fa7b,#ffb86c,#ff79c6,#bd93f9
       
       - name: Push all snake.svg variants
