@@ -22,30 +22,11 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake-light.svg?palette=github-light
 
-      - name: Generate snake (github-dark)
+      - name: Generate
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake-dark.svg?palette=github-dark
-
-      - name: Generate snake (gruvbox)
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake-gruvbox.svg?palette=gruvbox
-
-      - name: Generate snake (dracula)
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake-dracula.svg?palette=dracula
-
-      - name: Generate snake (aurora)
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake-aurora.svg?palette=aurora
-
+          outputs: dist/snake-dracula.svg?color_snake=#bd93f9&color_dots=#8be9fd,#50fa7b,#ffb86c,#ff79c6,#bd93f9
       - name: Push all snake.svg variants
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
