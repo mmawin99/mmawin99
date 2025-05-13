@@ -6,17 +6,22 @@ I've been learning Next.js for 2 years and I started using Next.js for my future
 * 🧠  I'm learning Next.js
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/mmawin99/mmawin99/output/snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mmawin99/mmawin99/output/snake-dracula.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mmawin99/mmawin99/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/mmawin99/mmawin99/output/snake-light.svg" alt="Snake animation" />
+</picture>
 
 ###
 
 <br clear="both">
-
-![](https://komarev.com/ghpvc/?username=mmawin99&style=for-the-badge)
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=mmawin99&style=for-the-badge" />
+</div>
 
 ###
 
-<div align="left">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
@@ -47,10 +52,50 @@ I've been learning Next.js for 2 years and I started using Next.js for my future
 <br clear="both">
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mmawin99&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mmawin99&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com/demo/preview.php?user=mmawin99&locale=en&mode=daily&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mmawin99" height="300" alt="activity-graph graph"  />
+  <picture>
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://github-readme-stats.vercel.app/api?username=mmawin99&show_icons=true&theme=dracula" />
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://github-readme-stats.vercel.app/api?username=mmawin99&show_icons=true&theme=default" />
+    <img 
+      src="https://github-readme-stats.vercel.app/api?username=mmawin99&show_icons=true&theme=default" 
+      alt="GitHub stats" height="200" />
+  </picture>
+  <picture>
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=mmawin99&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&hide_border=false&order=2&theme=dracula" />
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=mmawin99&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&hide_border=false&order=2&theme=default" />
+    <img 
+      src="https://github-readme-stats.vercel.app/api/top-langs?username=mmawin99&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&hide_border=false&order=2&theme=default" 
+      alt="GitHub Language Stats" height="200" />
+  </picture>
+  <picture>
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://streak-stats.demolab.com/demo/preview.php?user=mmawin99&locale=en&mode=daily&hide_border=false&border_radius=5&order=3&theme=dracula" />
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://streak-stats.demolab.com/demo/preview.php?user=mmawin99&locale=en&mode=daily&hide_border=false&border_radius=5&order=3&theme=default" />
+    <img 
+      src="https://streak-stats.demolab.com/demo/preview.php?user=mmawin99&locale=en&mode=daily&hide_border=false&border_radius=5&order=3&theme=default" 
+      alt="GitHub Streak Stats" height="200" />
+  </picture>
+  <picture>
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=mmawin99&bg_color=000000&color=ffffff&line=ffffff&point=0008ff&area=true&hide_border=true" />
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=mmawin99&bg_color=ffffff&color=000000&line=000000&point=ff00bb&area=true&hide_border=true" />
+    <img 
+      src="https://github-readme-activity-graph.vercel.app/graph?username=mmawin99&bg_color=ffffff&color=000000&line=000000&point=ff00bb&area=true&hide_border=true" 
+      alt="GitHub Contribution Stats" height="300" />
+  </picture> 
 </div>
 
 ###
