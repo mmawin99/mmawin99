@@ -1,4 +1,4 @@
-name: Generate pacman animation
+name: Generate Pacman & Snake Animations
 
 on:
   schedule:
@@ -13,15 +13,16 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
+    timeout-minutes: 10  # increased timeout to handle both jobs
+
     steps:
       - uses: actions/checkout@v3
 
-      - name: create dist folder
+      - name: Create dist folder
         run: mkdir -p dist
-      
-      - name: generate pacman SVG (Dracula dark)
+
+      # --- Pacman ---
+      - name: Generate Pacman SVG (Dracula dark)
         run: |
           npx pacman-contribution-graph@latest \
             --platform github \
@@ -29,18 +30,30 @@ jobs:
             --username ${{ github.repository_owner }} \
             --output dist/pacman-dracula.svg
       
-      - name: generate pacman SVG (Light theme)
+      - name: Generate Pacman SVG (Light theme)
         run: |
           npx pacman-contribution-graph@latest \
             --platform github \
             --gameTheme github \
             --username ${{ github.repository_owner }} \
             --output dist/pacman-light.svg
-      
-      - name: list files
+
+      # --- Snake ---
+      - name: Generate Snake SVG variants
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?palette=github-light
+            dist/snake-dracula.svg?palette=dracula
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake-dracula2.svg?color_snake=#bd93f9&color_dots=#8be9fd,#50fa7b,#ffb86c,#ff79c6,#bd93f9
+
+      - name: List all generated files
         run: ls -R dist
 
-      - name: push pacman-contribution-graph.svg to output branch
+      # --- Push all results ---
+      - name: Push animations to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
