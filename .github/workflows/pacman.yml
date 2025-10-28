@@ -20,11 +20,23 @@ jobs:
 
       - name: create dist folder
         run: mkdir -p dist
-
-      - name: generate pacman-contribution-graph.svg
+      
+      - name: generate pacman SVG (Dracula dark)
         run: |
-          npx pacman-contribution-graph@latest --user ${{ github.repository_owner }} --output dist/pacman-contribution-graph.svg
-
+          npx pacman-contribution-graph@latest \
+            --platform github \
+            --gameTheme github-dark \
+            --username ${{ github.repository_owner }} \
+            --output dist/pacman-dracula.svg
+      
+      - name: generate pacman SVG (Light theme)
+        run: |
+          npx pacman-contribution-graph@latest \
+            --platform github \
+            --gameTheme github \
+            --username ${{ github.repository_owner }} \
+            --output dist/pacman-light.svg
+      
       - name: list files
         run: ls -R dist
 
