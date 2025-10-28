@@ -1,6 +1,6 @@
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, What's Up?</h1>
 
-<h3>I'm **Navin (Game) Sae-heng**</h3>
+<h3>I'm <b>Navin (Game) Sae-heng</b></h3>
 
 <h5>⚙️ Building Ideas into Code | 🧠 Tech Explorer | 🌐 Web Enthusiast</h3>
 
