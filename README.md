@@ -139,12 +139,13 @@
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mmawin99/mmawin99/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mmawin99/mmawin99/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/mmawin99/mmawin99/output/pacman-contribution-graph.svg">
-</picture>
-
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mmawin99/mmawin99/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mmawin99/mmawin99/output/snake-light.svg" />
+    <img src="https://raw.githubusercontent.com/mmawin99/mmawin99/output/snake-light.svg" alt="Snake animation" />
+  </picture>
+</div>
 ###
 
 <div align="center">
