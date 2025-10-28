@@ -14,15 +14,21 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
+    
     steps:
+      - uses: actions/checkout@v3
+
+      - name: create dist folder
+        run: mkdir -p dist
+
       - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
+        run: |
+          npx pacman-contribution-graph@latest --user ${{ github.repository_owner }} --output dist/pacman-contribution-graph.svg
 
+      - name: list files
+        run: ls -R dist
 
-      - name: push pacman-contribution-graph.svg to the output branch
+      - name: push pacman-contribution-graph.svg to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
