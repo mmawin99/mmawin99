@@ -49,7 +49,7 @@
 
 ###
 
-**Tools & Libraries**
+**Tools**
 
 ###
 
