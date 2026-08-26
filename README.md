@@ -5,9 +5,9 @@
 <h5>⚙️ Building Ideas into Code | 🧠 Tech Explorer | 🌐 Web Enthusiast</h3>
 
 - 🌍 Bangkok, Thailand
-- 🎓 a 3rd-year undergraduate Computer Engineering student at King Mongkut’s University of Technology Thonburi (KMUTT)
-- 💻 Over 3 years of experience using Next.js
-- 🧠 Currently learning GraphQL and exploring Nest.js & Vite
+- 🎓 a last-year undergraduate Computer Engineering student at King Mongkut’s University of Technology Thonburi (KMUTT)
+- 💻 Over 4 years of experience using Next.js
+- 🧠 Currently exploring Nuxt.js and GraphQL
 
 ###
 
